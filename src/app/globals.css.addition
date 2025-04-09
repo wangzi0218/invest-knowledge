@@ -1,0 +1,8 @@
+
+/* 添加StickySidebar的固定效果 */
+.sidebar-sticky {
+  position: sticky;
+  top: 100px; /* 调整顶部距离，避免被header覆盖 */
+  height: calc(100vh - 120px); /* 设置高度，减去header和一些间距 */
+  overflow-y: auto; /* 内容过多时允许滚动 */
+}

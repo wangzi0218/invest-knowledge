@@ -1,6 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 投资知识库
 
-## Getting Started
+这是一个使用 Next.js、Tailwind CSS、Shadcn UI 和 Lucide 图标构建的投资知识库项目。本项目旨在通过通俗易懂的语言和简单易懂的示例，介绍投资市场的基础知识，包括一级市场、二级市场、证券、理财、基金、ETF、监管以及国内外证券市场的区别等内容。同时，项目还从产品经理的视角探讨了信息服务在投资中的价值，以及用户体验与交易或资讯产品之间的互生关系。
+
+## 项目特点
+
+- **通俗易懂**：使用简单明了的语言解释复杂的投资概念
+- **实用示例**：提供具体案例和图表，直观展示投资知识
+- **产品视角**：从产品经理角度分析信息服务在投资中的价值
+- **现代UI**：使用 Tailwind CSS 和 Shadcn UI 构建美观易用的界面
+- **响应式设计**：适配各种设备尺寸，提供良好的移动端体验
+
+## 内容结构
+
+- **一级市场**：介绍一级市场的基本概念、特点及运作机制
+- **二级市场**：探索二级市场的交易方式、参与者及市场规则
+- **证券**：掌握各类证券的基本知识、风险特征及投资策略
+- **理财产品**：了解常见理财产品的类型、收益特点及适合人群
+- **基金**：认识不同类型基金的投资目标、策略及风险收益特征
+- **ETF**：探索ETF的运作机制、优势及投资方法
+- **监管与规则**：了解投资市场的监管框架、法规及投资者保护机制
+- **国内外证券市场**：比较国内外证券市场的异同、特点及投资机会
+- **产品经理视角**：从产品经理视角看信息服务在投资中的价值与用户体验
+
+## 技术栈
+
+- [Next.js](https://nextjs.org) - React 框架
+- [Tailwind CSS](https://tailwindcss.com) - CSS 框架
+- [Shadcn UI](https://ui.shadcn.com) - 组件库
+- [Lucide](https://lucide.dev) - 图标库
+
+## 开始使用
 
 First, run the development server:
 
@@ -16,21 +45,33 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+你可以通过访问不同的路由来探索各个投资主题的内容。每个主题页面都包含详细的解释、示例和常见问题解答，帮助你全面了解相关知识。
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+本项目使用 Geist 字体提供清晰易读的阅读体验，并采用了现代化的组件设计，确保内容呈现美观且易于导航。
 
-## Learn More
+## 扩展与贡献
 
-To learn more about Next.js, take a look at the following resources:
+本项目旨在提供基础的投资知识，你可以通过以下方式扩展和完善项目：
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- 添加更多投资主题和详细内容
+- 增加交互式学习元素，如测验和模拟投资工具
+- 优化移动端体验和性能
+- 添加多语言支持
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+欢迎提交 Pull Request 或提出建议，共同完善这个投资知识库！
 
-## Deploy on Vercel
+## 部署
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+你可以将此项目部署到 Vercel、Netlify 或其他支持 Next.js 的平台上：
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+# 构建生产版本
+npm run build
+
+# 本地预览生产版本
+npm run start
+```
+
+## 许可
+
+本项目内容仅供学习参考，不构成投资建议。投资有风险，入市需谨慎。
