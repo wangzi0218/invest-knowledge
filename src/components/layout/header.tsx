@@ -147,14 +147,14 @@ const investmentTopics = [
 export function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex h-14 items-center justify-between px-4">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl flex h-14 items-center justify-between">
         <Link href="/" className="flex items-center space-x-2 shrink-0 group">
           <div className="bg-primary/10 p-2 rounded-full group-hover:bg-primary/20 transition-colors">
             <TrendingUp className="h-5 w-5 text-primary" />
           </div>
           <span className="font-bold text-xl max-md:text-lg bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent group-hover:from-primary/90 group-hover:to-primary transition-all">投资知识库</span>
         </Link>
-        <div className="flex-1 flex justify-end items-center">
+        <div className="flex justify-end items-center">
           <SearchComponent />
         </div>
       </div>
@@ -264,14 +264,14 @@ function SearchComponent() {
   };
 
   return (
-    <div className="relative w-full max-w-[500px] md:max-w-[400px] lg:max-w-[500px]" ref={searchRef}>
+    <div className="relative w-full max-w-[600px] md:max-w-[500px] lg:max-w-[600px]" ref={searchRef}>
       <div className="flex items-center w-full">
         <div className="relative w-full">
           <SearchIcon className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
           <Input
             type="text"
             placeholder="搜索投资主题..."
-            className="pl-10 pr-10 w-full"
+            className="pl-10 pr-10 w-full h-10"
             value={query}
             onChange={(e) => {
               setQuery(e.target.value);
